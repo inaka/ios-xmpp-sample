@@ -13,6 +13,7 @@ PODS:
   - KissXML (5.1.2):
     - KissXML/Core (= 5.1.2)
   - KissXML/Core (5.1.2)
+  - MBProgressHUD (1.0.0)
   - XMPPFramework (3.7.0):
     - XMPPFramework/All (= 3.7.0)
   - XMPPFramework/All (3.7.0):
@@ -176,6 +177,7 @@ PODS:
     - XMPPFramework/XEP-0203
 
 DEPENDENCIES:
+  - MBProgressHUD
   - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
 
 EXTERNAL SOURCES:
@@ -192,8 +194,9 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
   CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
   KissXML: 246c842586bb77110e04fb88e19376d96245c856
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   XMPPFramework: 977eef5d00c20fe9fb19c30d84a89c2d5564252d
 
-PODFILE CHECKSUM: 4974d41f3481ad90623da100beca0193dbf20d7b
+PODFILE CHECKSUM: a51f657b851862844a248bcd5412db0360b9dc92
 
 COCOAPODS: 1.1.1

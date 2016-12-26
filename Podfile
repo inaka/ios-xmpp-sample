@@ -5,5 +5,6 @@ use_frameworks!
 
 target 'CrazyMessages' do
   pod 'XMPPFramework', :git => "https://github.com/robbiehanson/XMPPFramework.git", :branch => 'master'
+  pod 'MBProgressHUD'
 end
 

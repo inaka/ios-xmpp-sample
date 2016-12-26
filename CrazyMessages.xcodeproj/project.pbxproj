@@ -12,6 +12,8 @@
 		E017013C1E11471F005808B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E017013A1E11471F005808B1 /* Main.storyboard */; };
 		E017013E1E11471F005808B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E017013D1E11471F005808B1 /* Assets.xcassets */; };
 		E01701411E11471F005808B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E017013F1E11471F005808B1 /* LaunchScreen.storyboard */; };
+		E06D63511E11CAFC0092A99C /* XMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D63501E11CAFC0092A99C /* XMPPController.swift */; };
+		E06D63541E11CCC60092A99C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D63531E11CCC60092A99C /* LogInViewController.swift */; };
 		E0B8A2571E114CE7004D2E7B /* Pods_CrazyMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3395846F5F4841AC60B8BB /* Pods_CrazyMessages.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		E017013D1E11471F005808B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01701401E11471F005808B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01701421E114720005808B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D63501E11CAFC0092A99C /* XMPPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPPController.swift; sourceTree = "<group>"; };
+		E06D63531E11CCC60092A99C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +83,23 @@
 			isa = PBXGroup;
 			children = (
 				E01701361E11471F005808B1 /* AppDelegate.swift */,
-				E01701381E11471F005808B1 /* ViewController.swift */,
+				E06D63501E11CAFC0092A99C /* XMPPController.swift */,
+				E06D63521E11CCAD0092A99C /* ViewControllers */,
 				E017013A1E11471F005808B1 /* Main.storyboard */,
-				E017013D1E11471F005808B1 /* Assets.xcassets */,
 				E017013F1E11471F005808B1 /* LaunchScreen.storyboard */,
+				E017013D1E11471F005808B1 /* Assets.xcassets */,
 				E01701421E114720005808B1 /* Info.plist */,
 			);
 			path = CrazyMessages;
+			sourceTree = "<group>";
+		};
+		E06D63521E11CCAD0092A99C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E06D63531E11CCC60092A99C /* LogInViewController.swift */,
+				E01701381E11471F005808B1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06D63541E11CCC60092A99C /* LogInViewController.swift in Sources */,
 				E01701391E11471F005808B1 /* ViewController.swift in Sources */,
 				E01701371E11471F005808B1 /* AppDelegate.swift in Sources */,
+				E06D63511E11CAFC0092A99C /* XMPPController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
