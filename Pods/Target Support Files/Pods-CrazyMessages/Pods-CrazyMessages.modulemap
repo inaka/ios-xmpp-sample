@@ -1,0 +1,6 @@
+framework module Pods_CrazyMessages {
+  umbrella header "Pods-CrazyMessages-umbrella.h"
+
+  export *
+  module * { export * }
+}
