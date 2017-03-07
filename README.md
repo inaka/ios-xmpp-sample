@@ -5,6 +5,7 @@ Sample iOS app that implements [XMPPFramework](https://github.com/robbiehanson/X
 ### Blog posts:
 
 + [YAXT??! Yet another XMPP tutorial?](https://www.erlang-solutions.com/blog/build-a-complete-ios-messaging-app-using-xmppframework-tutorial-part-1.html)
++ [First steps: XMPPFramework](https://www.erlang-solutions.com/blog/build-a-complete-ios-messaging-app-using-xmppframework-part-2.html)
 
 
 ## App Status
